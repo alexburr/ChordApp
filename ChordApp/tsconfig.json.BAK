@@ -1,0 +1,29 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5"
+  },
+  "outDir": "../../public/js",
+  //"files": [
+  //  "Scripts/accidental.ts",
+  //  "Scripts/chord.ts",
+  //  "Scripts/chordNote.ts",
+  //  "Scripts/chords.ts",
+  //  "Scripts/chordType.ts",
+  //  "Scripts/chordTypes.ts",
+  //  "Scripts/chordTypeGroup.ts",
+  //  "Scripts/note.ts",
+  //  "Scripts/scale.ts",
+  //  "Scripts/vars.ts",
+  //  "Scripts/app.ts"
+  //],
+  "include": [ "src/ts/*" ] //,
+  //"exclude": [
+  //  "node_modules",
+  //  "wwwroot"
+  //]
+}

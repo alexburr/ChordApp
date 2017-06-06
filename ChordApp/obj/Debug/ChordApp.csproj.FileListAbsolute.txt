@@ -1,0 +1,5 @@
+C:\Users\aburr\documents\visual studio 2015\Projects\ChordApp\ChordApp\bin\ChordApp.dll.config
+C:\Users\aburr\documents\visual studio 2015\Projects\ChordApp\ChordApp\bin\ChordApp.dll
+C:\Users\aburr\documents\visual studio 2015\Projects\ChordApp\ChordApp\bin\ChordApp.pdb
+C:\Users\aburr\documents\visual studio 2015\Projects\ChordApp\ChordApp\obj\Debug\ChordApp.dll
+C:\Users\aburr\documents\visual studio 2015\Projects\ChordApp\ChordApp\obj\Debug\ChordApp.pdb
