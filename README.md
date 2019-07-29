@@ -1,5 +1,5 @@
 # ChordApp
-Chord Reference for multiple different roots and qualities
+Chord Reference for multiple different roots and qualities   
 View it at: https://alexburr.github.io/apps/ChordApp/index.html
 
 ## Compiling/running
