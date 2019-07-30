@@ -7,26 +7,35 @@
 
 var scales: Scale[] = [
     new Scale("C", ["C", "D", "E", "F", "G", "A", "B"]),
+    new Scale("C♯", ["C♯", "D♯", "E♯", "F♯", "G♯", "A♯", "B♯"]),
     new Scale("D♭", ["D♭", "E♭", "F", "G♭", "A♭", "B♭", "C"]),
     new Scale("D", ["D", "E", "F♯", "G", "A", "B", "C♯"]),
+    new Scale("D♯", ["D♯", "E♯", "F𝄪", "G♯", "A♯", "B♯", "C𝄪"]),
     new Scale("E♭", ["E♭", "F", "G", "A♭", "B♭", "C", "D"]),
     new Scale("E", ["E", "F♯", "G♯", "A", "B", "C♯", "D♯"]),
+    new Scale("E♯", ["E♯", "F𝄪", "G𝄪", "A♯", "B♯", "C𝄪", "D𝄪"]),
     new Scale("F", ["F", "G", "A", "B♭", "C", "D", "E"]),
+    new Scale("F♯", ["F♯", "G♯", "A♯", "B", "C♯", "D♯", "E♯"]),
+    new Scale("G♭", ["G♭", "A♭", "B♭", "C♭", "D♭", "E♭", "F"]),
     new Scale("G", ["G", "A", "B", "C", "D", "E", "F♯"]),
+    new Scale("G♯", ["G♯", "A♯", "B♯", "C♯", "D♯", "E♯", "F𝄪"]),
     new Scale("A♭", ["A♭", "B♭", "C", "D♭", "E♭", "F", "G"]),
     new Scale("A", ["A", "B", "C♯", "D", "E", "F♯", "G♯"]),
+    new Scale("A♯", ["A♯", "B♯", "C𝄪", "D♯", "E♯", "F𝄪", "G𝄪"]),
     new Scale("B♭", ["B♭", "C", "D", "E♭", "F", "G", "A"]),
-    new Scale("B", ["B", "C♯", "D♯", "E", "F", "G♯", "A♯"])
+    new Scale("B", ["B", "C♯", "D♯", "E", "F", "G♯", "A♯"]),    
+    new Scale("B♯", ["B♯", "C𝄪", "D𝄪", "E♯", "F♯", "G𝄪", "A𝄪"]),
+    new Scale("C♭", ["C♭", "D♭", "E♭", "F♭", "G♭", "A♭", "B♭"]),
 ];
 
 var chordTypeGroups = new ChordTypeGroup([
     new ChordTypes("Triads", [
-        new ChordType("Major", ["", "maj", "Maj", "M", "△"], [
+        new ChordType("Major", ["", "maj", "Maj", "M", "Ma", "ma", "△"], [
             new ChordNote(1, Accidental.natural),
             new ChordNote(3, Accidental.natural),
             new ChordNote(5, Accidental.natural)
         ], null),
-        new ChordType("Minor", ["min", "m", "-"], [
+        new ChordType("Minor", ["min", "Min", "m", "Mi", "mi", "-"], [
             new ChordNote(1, Accidental.natural),
             new ChordNote(3, Accidental.flat),
             new ChordNote(5, Accidental.natural)
@@ -49,13 +58,13 @@ var chordTypeGroups = new ChordTypeGroup([
             new ChordNote(5, Accidental.natural),
             new ChordNote(7, Accidental.flat)
         ], null),
-        new ChordType("Major 7th", ["Maj7", "maj7", "△7"], [
+        new ChordType("Major 7th", ["maj7", "Maj7", "M7", "Ma7", "ma7", "△7"], [
             new ChordNote(1, Accidental.natural),
             new ChordNote(3, Accidental.natural),
             new ChordNote(5, Accidental.natural),
             new ChordNote(7, Accidental.natural)
         ], null),
-        new ChordType("Minor 7th", ["min7", "m7", "-7"], [
+        new ChordType("Minor 7th", ["min7", "m7", "Mi7", "mi7", "-7"], [
             new ChordNote(1, Accidental.natural),
             new ChordNote(3, Accidental.flat),
             new ChordNote(5, Accidental.natural),
