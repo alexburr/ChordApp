@@ -111,6 +111,20 @@ var chordTypeGroups = new ChordTypeGroup([
             new ChordNote(5, Accidental.natural),
             new ChordNote(7, Accidental.flat),
             new ChordNote(2, Accidental.natural)
+        ], null),
+        new ChordType("Major 9th", ["maj9", "Ma9", "M9", "Ma9", "ma9", "△9"], [
+            new ChordNote(1, Accidental.natural),
+            new ChordNote(3, Accidental.natural),
+            new ChordNote(5, Accidental.natural),
+            new ChordNote(7, Accidental.natural),
+            new ChordNote(2, Accidental.natural)
+        ], null),
+        new ChordType("Minor 9th", ["min9", "m9", "Mi9", "mi9", "-9"], [
+            new ChordNote(1, Accidental.natural),
+            new ChordNote(3, Accidental.flat),
+            new ChordNote(5, Accidental.natural),
+            new ChordNote(7, Accidental.flat),
+            new ChordNote(2, Accidental.natural)
         ], null)
     ])
 ]);
