@@ -22,22 +22,22 @@ class Chord {
     public outputDisplay(): string {
         var output: string = "";
 
-        output += "<th class=\"text-xs-center\">" + this.name + "</th>";
+        output += "<tr><th>Chord</th><td><strong>" + this.name + "</strong></td></tr>";
 
-        output += "<td>";
+        output += "<tr><th>Names</th><td>";
         for (var j = 0; j < this.chordType.names.length; j++) {
             if (j != 0) {
                 output += ", ";
             }
             output += this.root + this.chordType.names[j];
         }
-        output += "</td>";
+        output += "</td></tr>";
 
-        output += "<td>";
+        output += "<tr><th>Notes</th><td>";
         for (var k = 0; k < this.noteNames.length; k++) {
             output += "<span>" + this.noteNames[k] + "</span>";
         }
-        output += "</td>";
+        output += "</td></tr>";
 
         return output;
     }

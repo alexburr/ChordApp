@@ -10,14 +10,13 @@ class Chords {
 
     // ---------------------------
     public getChordsForDisplay(): string {
-        var output: string = "<table class=\"table table-hover table-sm text-xs-center\">";
-        output += "<thead><tr><th class=\"text-xs-center\">Chord</th><th class=\"text-xs-center\">Names</th><th class=\"text-xs-center\">Notes</th></tr></thead><tbody><tr>";
+        var output: string = "<table class=\"table table-responsive table-hover\">";
 
         for (var i = 0; i < this.chords.length; i++) {
             output += this.chords[i].outputDisplay();
         }
 
-        output += "</tr></tbody></table>";
+        output += "</tbody></table>";
 
         return output;
     }
